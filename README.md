@@ -1,2 +1,7 @@
 # Pipelined Architectures for Latency Aware Caching With Delayed Hits
-### Simulator in the caffeine library
+##### Simulator in the caffeine library
+
+## Abstract 
+Modern computer systems use caching to speed up access to data and make better use of resources. These systems, especially in storage and cloud environments, are diverse, with different types of storage, locations, and caches, leading to inconsistent access times. Applications running on these systems also have varying access patterns, like how often they access data or if they do so in bursts. To handle this complexity, cache systems use complex algorithms that aim to balance conflicting priorities. However, these algorithms are hard to expand, debug, and integrate into software.
+
+Our research introduces a flexible architecture that represents complex algorithms as a series of simple policies. This architecture automatically adjusts the different stages of the policy pipeline to maximize the system's performance for the current workload. This means we can add new strategies while preserving the old ones and only use them when they provide value. We've also developed a new cache algorithm called Burst Cache, which can identify and keep items that come in bursts for a long time, even if they aren't recent or frequent. This is particularly useful for handling brief bursts of data that arrive faster than the cache can process them, leading to delays and increased request times. Integrating this strategy into a cache system without harming performance for non-bursty data is a challenge. Our proposed algorithm can select the best strategy based on the workload's characteristics.
