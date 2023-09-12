@@ -51,6 +51,9 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 * [Hyperbolic Caching: Flexible Caching for Web Applications](https://www.usenix.org/system/files/conference/atc17/atc17-blankstein.pdf)
 * [Improving WWW Proxies Performance with Greedy-Dual-Size-Frequency Caching Policy](https://eclass.uoa.gr/modules/document/file.php/D245/2015/HPL-98-69R1_GDS.pdf)
 * [Storage-Aware Caching:Revisiting Caching for Heterogeneous Storage Systems](https://research.cs.wisc.edu/wind/Publications/storageAware-fast02.pdf)
+#### REFERENCES for the policies
+* [Book Data Structures & Algorithms in Java](https://everythingcomputerscience.com/books/schoolboek-data_structures_and_algorithms_in_java.pdf)
+* [Book Java Concurrency in Practice](https://leon-wtf.github.io/doc/java-concurrency-in-practice.pdf)
 
 ## More reference use later mybe 
 * https://java-design-patterns.com/patterns/caching/
