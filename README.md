@@ -27,7 +27,13 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 * LRU (Least Recently Used) is a cache eviction algorithm that removes the least recently accessed item when the cache is full
 * LFU (Least Frequently Used) is a cache eviction algorithm that removes the least frequently accessed item when the cache is full.
 * First-In-First-Out (FIFO): In FIFO, the first item that was added to the cache is the first one to be removed when the cache reaches its limit. It follows a strict queue-like behavior.
-* 
+* Random Replacement: This policy selects a random item from the cache to evict when needed. It's simple but lacks any specific strategy.
+* Most Recently Used (MRU): MRU evicts the most recently accessed item when the cache is full. It assumes that the most recently accessed item is the most likely to be accessed again soon.
+* Adaptive Replacement Cache (ARC): ARC combines elements of both LRU and LFU to adapt to changing access patterns. It dynamically adjusts its behavior based on recent access history.
+* Two-Queue Algorithm (2Q): 2Q uses two separate queues, one for recently accessed items (MRU) and the other for frequently accessed items (LFU). It aims to provide a balance between these two aspects of caching.
+* Clock or Second-Chance Algorithm: This policy keeps a circular buffer and marks items as they are accessed. When an item needs to be evicted, it looks for the first unmarked (unused) item in the buffer.
+* LIRS (Low Inter-reference Recency Set): LIRS is designed to improve upon LRU by distinguishing between items with high and low inter-reference recency. It aims to provide better cache hit rates.
+* GDSF (Greedy-Dual Size Frequency): GDSF maintains two separate queues for items and prioritizes eviction based on both size and access frequency.
 
 
 
