@@ -16,7 +16,7 @@ When focusing on variable access times within the context of cost-aware caching,
 
 In the context of cost-aware caching, each item in the cache is associated with a certain access cost. These costs can represent various factors such as variations in access times, monetary expenses, power consumption, and so on. The field of cost-aware caching focuses on developing efficient algorithms tailored to this cost-based model. The problem with ad-hoc caching algorithms is that they become outdated as new heuristics and approaches are introduced, and most caching research does not consider the cost-aware model. Consequently, valuable ideas from one field have limited influence on the development of ideas in other fields.
 
-## Police
+## policies
 * LRU (Least Recently Used) is a cache eviction algorithm that removes the least recently accessed item when the cache is full
 
 
