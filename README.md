@@ -14,6 +14,11 @@ In situations where access times are not consistent and especially when the time
 
 In the context of cost-aware caching, each item in the cache is associated with a certain access cost. These costs can represent various factors such as variations in access times, monetary expenses, power consumption, and so on. The field of cost-aware caching focuses on developing efficient algorithms tailored to this cost-based model. The problem with ad-hoc caching algorithms is that they become outdated as new heuristics and approaches are introduced, and most caching research does not consider the cost-aware model. Consequently, valuable ideas from one field have limited influence on the development of ideas in other fields.
 
+## Police
+* LRU (Least Recently Used) is a cache eviction algorithm that removes the least recently accessed item when the cache is full
+
+
+
 
 ## Important 
 * DRAM, which stands for Dynamic Random-Access Memory, is a type of volatile computer memory that is commonly used in computers and other electronic devices. It is a form of primary or main memory in a computer system and is responsible for temporarily storing data that     the CPU (Central Processing Unit) actively uses during program execution. Regarding the statement "DRAM can be a cache for SSD," this means that DRAM memory can be used as a cache to enhance the performance of Solid-State Drives (SSDs). SSDs are a type of non-volatile storage that is faster than traditional hard disk drives (HDDs) but still not as fast as DRAM. By using DRAM as a cache for frequently accessed data from the SSD, it helps reduce the latency of data access and improves overall system performance. This caching mechanism allows frequently used data to be quickly retrieved from the high-speed DRAM memory, while less frequently accessed data is stored on the slower but higher-capacity SSD. It's a technique used to bridge the speed gap between DRAM and SSD, optimizing data access in a computer system.
