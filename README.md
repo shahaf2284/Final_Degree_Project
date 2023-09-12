@@ -1,8 +1,7 @@
 # Pipelined Architectures for Latency Aware Caching With Delayed Hits
 ##### Simulator in caffeine library
 
-### Links
-[Libery caffeine](https://github.com/ben-manes/caffeine/tree/master)
+[Links to libery caffeine](https://github.com/ben-manes/caffeine/tree/master)
 
 ## Abstract 
 Modern computer systems use caching to speed up access to data and make better use of resources. These systems, especially in storage and cloud environments, are diverse, with different types of storage, locations, and caches, leading to inconsistent access times. Applications running on these systems also have varying access patterns, like how often they access data or if they do so in bursts. To handle this complexity, cache systems use complex algorithms that aim to balance conflicting priorities. However, these algorithms are hard to expand, debug, and integrate into software.
@@ -27,6 +26,8 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 ## policies
 * LRU (Least Recently Used) is a cache eviction algorithm that removes the least recently accessed item when the cache is full
 * LFU (Least Frequently Used) is a cache eviction algorithm that removes the least frequently accessed item when the cache is full.
+* First-In-First-Out (FIFO): In FIFO, the first item that was added to the cache is the first one to be removed when the cache reaches its limit. It follows a strict queue-like behavior.
+* 
 
 
 
