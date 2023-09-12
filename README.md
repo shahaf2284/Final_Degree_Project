@@ -39,4 +39,8 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 
 * [Caching Online Video: Analysis and Proposed Algorithm](https://www.researchgate.net/publication/319117728_Caching_Online_Video_Analysis_and_Proposed_Algorithm)
 * [Cost-aware caching: optimizing cache provisioning and object placement in ICN](https://perso.telecom-paristech.fr/drossi/paper/rossi14globecom.pdf)
-*
+* [Caching with Delayed Hits](https://dl.acm.org/doi/pdf/10.1145/3387514.3405883)
+* [Lower Bounds for Caching with Delayed Hits](https://arxiv.org/pdf/2006.00376.pdf)
+* [Hyperbolic Caching: Flexible Caching for Web Applications](https://www.usenix.org/system/files/conference/atc17/atc17-blankstein.pdf)
+* [Improving WWW Proxies Performance with Greedy-Dual-Size-Frequency Caching Policy](https://eclass.uoa.gr/modules/document/file.php/D245/2015/HPL-98-69R1_GDS.pdf)
+* [Storage-Aware Caching:Revisiting Caching for Heterogeneous Storage Systems](https://research.cs.wisc.edu/wind/Publications/storageAware-fast02.pdf)
