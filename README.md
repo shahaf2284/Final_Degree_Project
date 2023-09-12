@@ -54,7 +54,7 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 #### REFERENCES for the policies
 * [Book Data Structures & Algorithms in Java](https://everythingcomputerscience.com/books/schoolboek-data_structures_and_algorithms_in_java.pdf)
 * [Book Java Concurrency in Practice](https://leon-wtf.github.io/doc/java-concurrency-in-practice.pdf)
-* [High-Performance Computing and Networking](file:///C:/Users/User/Downloads/3-540-48228-8.pdf)
+* [High-Performance Computing and Networking](https://link-springer-com.ezproxy.bgu.ac.il/book/10.1007/3-540-48228-8)
 
 ## More reference use later mybe 
 * https://java-design-patterns.com/patterns/caching/
