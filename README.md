@@ -20,8 +20,10 @@ Our contribution involves enhancing the design of latency-aware caches. We propo
 Our solution operates as a pipeline of simple cache policies, where the output of one policy feeds into the next. To make it adaptive, we divide the cache into smaller segments and employ a novel ghost entries-based hill climber algorithm to move portions between cache algorithms, adjusting their emphasis on Recency, Frequency, or Burstiness. This adaptability allows us to introduce and fine-tune policies based on workload characteristics.
 
 Through extensive simulations, we demonstrate that our algorithm surpasses various state-of-the-art alternatives, is insensitive to initial conditions, and competes favorably with static configurations, occasionally even outperforming the best static setups. This underscores the effectiveness of our adaptivity technique in identifying and leveraging subtle workload trends. Furthermore, our approach outperforms existing methods, even in scenarios where previous algorithms falter, thanks to our more robust use of ghost entries. While it requires additional metadata, the overhead for a small number of blocks is comparable to other works in the field.
+
 ## policies
 * LRU (Least Recently Used) is a cache eviction algorithm that removes the least recently accessed item when the cache is full
+* LFU (Least Frequently Used) is a cache eviction algorithm that removes the least frequently accessed item when the cache is full.
 
 
 
