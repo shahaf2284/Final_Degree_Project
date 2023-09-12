@@ -42,8 +42,8 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 * DRAM, which stands for Dynamic Random-Access Memory, is a type of volatile computer memory that is commonly used in computers and other electronic devices. It is a form of primary or main memory in a computer system and is responsible for temporarily storing data that     the CPU (Central Processing Unit) actively uses during program execution. Regarding the statement "DRAM can be a cache for SSD," this means that DRAM memory can be used as a cache to enhance the performance of Solid-State Drives (SSDs). SSDs are a type of non-volatile storage that is faster than traditional hard disk drives (HDDs) but still not as fast as DRAM. By using DRAM as a cache for frequently accessed data from the SSD, it helps reduce the latency of data access and improves overall system performance. This caching mechanism allows frequently used data to be quickly retrieved from the high-speed DRAM memory, while less frequently accessed data is stored on the slower but higher-capacity SSD. It's a technique used to bridge the speed gap between DRAM and SSD, optimizing data access in a computer system.
 * Ad-hoc algorithms refer to algorithms that are specifically designed or tailored for a particular problem or situation without following a general, standardized approach. These algorithms are created on a case-by-case basis to address a specific, often unique, problem or set of conditions. They are typically not part of a broader, established algorithmic framework and are often improvised or custom-built to solve a particular problem at hand.
 
-## REFERENCES
 
+## REFERENCES
 * [Caching Online Video: Analysis and Proposed Algorithm](https://www.researchgate.net/publication/319117728_Caching_Online_Video_Analysis_and_Proposed_Algorithm)
 * [Cost-aware caching: optimizing cache provisioning and object placement in ICN](https://perso.telecom-paristech.fr/drossi/paper/rossi14globecom.pdf)
 * [Caching with Delayed Hits](https://dl.acm.org/doi/pdf/10.1145/3387514.3405883)
@@ -51,3 +51,6 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 * [Hyperbolic Caching: Flexible Caching for Web Applications](https://www.usenix.org/system/files/conference/atc17/atc17-blankstein.pdf)
 * [Improving WWW Proxies Performance with Greedy-Dual-Size-Frequency Caching Policy](https://eclass.uoa.gr/modules/document/file.php/D245/2015/HPL-98-69R1_GDS.pdf)
 * [Storage-Aware Caching:Revisiting Caching for Heterogeneous Storage Systems](https://research.cs.wisc.edu/wind/Publications/storageAware-fast02.pdf)
+
+## More reference use later mybe 
+* https://java-design-patterns.com/patterns/caching/
