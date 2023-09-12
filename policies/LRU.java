@@ -32,3 +32,9 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
         System.out.println(cache); // Output: {3=Three, 2=Two, 4=Four}
     }
 }
+// In this policies:
+// 1. We create an LRUCache class that extends LinkedHashMap, which is a data structure that maintains the order of elements based on their access.
+// 2. In the constructor, we specify the cache capacity, and we call the super constructor with parameters to initialize the LinkedHashMap.
+// 3.We override the removeEldestEntry method to control when to remove the least recently used entry. When the cache size exceeds the specified capacity, this method returns true, which triggers the removal of the eldest (least recently used) entry.
+// 4.In the main method, we demonstrate how to use the LRUCache class by adding, accessing, and removing items from the cache.
+
