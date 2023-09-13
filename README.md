@@ -41,7 +41,7 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 * Ad-hoc algorithms refer to algorithms that are specifically designed or tailored for a particular problem or situation without following a general, standardized approach. These algorithms are created on a case-by-case basis to address a specific, often unique, problem or set of conditions. They are typically not part of a broader, established algorithmic framework and are often improvised or custom-built to solve a particular problem at hand.
 
 ## Tools 
-<img align="right" width="20%" src="https://github.com/shahaf2284/Final_Degree_Project/assets/122786017/8c99f679-bde1-41a9-a957-51882d86a4bb" />
+<img align="right" width="10%" src="https://github.com/shahaf2284/Final_Degree_Project/assets/122786017/8c99f679-bde1-41a9-a957-51882d86a4bb" />
   
 * Spring Boot - is an open-source Java-based framework used for building production-ready, stand-alone, and web-based applications quickly and with minimal configuration. It is part of the larger Spring ecosystem and is designed to simplify the development of Spring   applications by providing a set of pre-configured templates and conventions. Spring Boot makes it easier to create robust, scalable, and maintainable Java applications.
     * [Guide To Caching in Spring](https://www.baeldung.com/spring-cache-tutorial)
