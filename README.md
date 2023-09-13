@@ -3,6 +3,7 @@
 
 [Links to libery caffeine](https://github.com/ben-manes/caffeine/tree/master)
 
+
 ## Abstract 
 Modern computer systems use caching to speed up access to data and make better use of resources. These systems, especially in storage and cloud environments, are diverse, with different types of storage, locations, and caches, leading to inconsistent access times. Applications running on these systems also have varying access patterns, like how often they access data or if they do so in bursts. To handle this complexity, cache systems use complex algorithms that aim to balance conflicting priorities. However, these algorithms are hard to expand, debug, and integrate into software.
 
@@ -35,13 +36,12 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 * LIRS (Low Inter-reference Recency Set): LIRS is designed to improve upon LRU by distinguishing between items with high and low inter-reference recency. It aims to provide better cache hit rates.
 * GDSF (Greedy-Dual Size Frequency): GDSF maintains two separate queues for items and prioritizes eviction based on both size and access frequency.
 
-
-
-
 ## Important 
 * DRAM, which stands for Dynamic Random-Access Memory, is a type of volatile computer memory that is commonly used in computers and other electronic devices. It is a form of primary or main memory in a computer system and is responsible for temporarily storing data that     the CPU (Central Processing Unit) actively uses during program execution. Regarding the statement "DRAM can be a cache for SSD," this means that DRAM memory can be used as a cache to enhance the performance of Solid-State Drives (SSDs). SSDs are a type of non-volatile storage that is faster than traditional hard disk drives (HDDs) but still not as fast as DRAM. By using DRAM as a cache for frequently accessed data from the SSD, it helps reduce the latency of data access and improves overall system performance. This caching mechanism allows frequently used data to be quickly retrieved from the high-speed DRAM memory, while less frequently accessed data is stored on the slower but higher-capacity SSD. It's a technique used to bridge the speed gap between DRAM and SSD, optimizing data access in a computer system.
 * Ad-hoc algorithms refer to algorithms that are specifically designed or tailored for a particular problem or situation without following a general, standardized approach. These algorithms are created on a case-by-case basis to address a specific, often unique, problem or set of conditions. They are typically not part of a broader, established algorithmic framework and are often improvised or custom-built to solve a particular problem at hand.
 
+Tools 
+* Spring Boot - is an open-source Java-based framework used for building production-ready, stand-alone, and web-based applications quickly and with minimal configuration. It is part of the larger Spring ecosystem and is designed to simplify the development of Spring applications by providing a set of pre-configured templates and conventions. Spring Boot makes it easier to create robust, scalable, and maintainable Java applications.
 
 ## REFERENCES
 * [Caching Online Video: Analysis and Proposed Algorithm](https://www.researchgate.net/publication/319117728_Caching_Online_Video_Analysis_and_Proposed_Algorithm)
