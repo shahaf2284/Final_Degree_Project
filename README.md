@@ -42,7 +42,11 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 
 Tools 
 * Spring Boot - is an open-source Java-based framework used for building production-ready, stand-alone, and web-based applications quickly and with minimal configuration. It is part of the larger Spring ecosystem and is designed to simplify the development of Spring applications by providing a set of pre-configured templates and conventions. Spring Boot makes it easier to create robust, scalable, and maintainable Java applications.
+  ![image](https://github.com/shahaf2284/Final_Degree_Project/assets/122786017/8c99f679-bde1-41a9-a957-51882d86a4bb)
     * [Guide To Caching in Spring](https://www.baeldung.com/spring-cache-tutorial)
+    * [Another explanation](https://docs.spring.io/spring-boot/docs/2.1.6.RELEASE/reference/html/boot-features-caching.html#boot-features-caching-provider-caffeine)
+    * [Instructions Spring](https://www.javatpoint.com/spring-boot-caching)
+      
 
 ## REFERENCES
 * [Caching Online Video: Analysis and Proposed Algorithm](https://www.researchgate.net/publication/319117728_Caching_Online_Video_Analysis_and_Proposed_Algorithm)
