@@ -74,6 +74,6 @@ __However__, we can measure latency and performance indirectly by implementing y
       * External Monitoring: Use external monitoring tools and services that can provide insights into your application's performance, including latency measurements. Tools like Prometheus with Grafana or New Relic can be integrated into your application for performance monitoring.
    Remember that measuring latency can be influenced by various factors, including the hardware, operating system, and JVM configuration. It's essential to consider the specific context and requirements of your application when implementing latency measurement solutions.
 
-Since software libraries like Caffeine primarily focus on their core functionality (in this case, caching), additional performance monitoring and latency measurement are typically handled at the application level using the approaches mentioned above. Keep in mind that newer versions of libraries and frameworks may introduce additional features, so it's a good practice to check the documentation or release notes for the latest updates and capabilities.
+   Since software libraries like Caffeine primarily focus on their core functionality (in this case, caching), additional performance monitoring and latency measurement are typically handled    at the application level using the approaches mentioned above. Keep in mind that newer versions of libraries and frameworks may introduce additional features, so it's a good practice to       check the documentation or release notes for the latest updates and capabilities.
  
 
