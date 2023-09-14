@@ -62,3 +62,8 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 
 ## More reference use later mybe 
 * https://java-design-patterns.com/patterns/caching/
+
+
+## Questions we are trying to understand about the library
+* if it is possible to obtain information about the latency
+   * Caffeine library primarily focuses on caching and doesn't directly provide features for measuring or obtaining information about          latency. It is designed to efficiently manage in-memory caches and provide fast access to cached data.
