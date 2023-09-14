@@ -68,5 +68,6 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 * if it is possible to obtain information about the latency
    * Caffeine library primarily focuses on caching and doesn't directly provide features for measuring or obtaining information about latency. It is designed to efficiently manage in-memory caches and provide fast access to cached data.
 __However__, we can measure latency and performance indirectly by implementing your own timing and profiling mechanisms in your code. Here are a few approaches you can consider:
+      * Instrumentation: You can add instrumentation code to your application to measure the time taken by specific operations, including cache access. For example, you can use Java's __System.nanoTime()__ to record timestamps before and after cache access and calculate the time elapsed.
  
 
