@@ -37,6 +37,12 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 * GDSF (Greedy-Dual Size Frequency): GDSF maintains two separate queues for items and prioritizes eviction based on both size and access frequency.
 
 ## Important 
+* Caffeine is a java rewrite of Guaca's cache and will supersede the Guava support in Spring Boot 2.0 . if Caffeine is present, a __CaffeineCacheManager__ (provided by the __spring-boot-starter-cache__ 'Starter') is auto-configured. Caches can be created on setup using the __spring.cache.cache-names__ property and customized by one of the followong:
+   1. A cache spec defined by __spring.cache.caffeine.spec__
+   2. A com.github.benmanes.caffeine.cache.CaffeineSpec bean is defined
+   3. A com.github.benmanes.caffeine.cache.Caffeine bean is defined
+Below is the GitHub link to download source: https://github.com/kishanjavatrainer/SpringBootCaffeineCache
+
 * DRAM, which stands for Dynamic Random-Access Memory, is a type of volatile computer memory that is commonly used in computers and other electronic devices. It is a form of primary or main memory in a computer system and is responsible for temporarily storing data that     the CPU (Central Processing Unit) actively uses during program execution. Regarding the statement "DRAM can be a cache for SSD," this means that DRAM memory can be used as a cache to enhance the performance of Solid-State Drives (SSDs). SSDs are a type of non-volatile storage that is faster than traditional hard disk drives (HDDs) but still not as fast as DRAM. By using DRAM as a cache for frequently accessed data from the SSD, it helps reduce the latency of data access and improves overall system performance. This caching mechanism allows frequently used data to be quickly retrieved from the high-speed DRAM memory, while less frequently accessed data is stored on the slower but higher-capacity SSD. It's a technique used to bridge the speed gap between DRAM and SSD, optimizing data access in a computer system.
 * Ad-hoc algorithms refer to algorithms that are specifically designed or tailored for a particular problem or situation without following a general, standardized approach. These algorithms are created on a case-by-case basis to address a specific, often unique, problem or set of conditions. They are typically not part of a broader, established algorithmic framework and are often improvised or custom-built to solve a particular problem at hand.
 
