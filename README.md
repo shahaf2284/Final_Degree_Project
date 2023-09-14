@@ -68,6 +68,12 @@ Through extensive simulations, we demonstrate that our algorithm surpasses vario
 * if it is possible to obtain information about the latency
    * Caffeine library primarily focuses on caching and doesn't directly provide features for measuring or obtaining information about latency. It is designed to efficiently manage in-memory caches and provide fast access to cached data.
 __However__, we can measure latency and performance indirectly by implementing your own timing and profiling mechanisms in your code. Here are a few approaches you can consider:
-      * Instrumentation: You can add instrumentation code to your application to measure the time taken by specific operations, including cache access. For example, you can use Java's __System.nanoTime()__ to record timestamps before and after cache access and calculate the time elapsed.
+      * Instrumentation: add instrumentation code to the application to measure the time taken by specific operations, including cache access. For example, you can use Java's __System.nanoTime()__ to record timestamps before and after cache access and calculate the time elapsed.
+      * Profiling Tools: Use Java profiling tools like __VisualVM__ or __YourKit__ to analyze the performance of your application, including cache-related operations. These tools can help you identify bottlenecks and performance issues, which indirectly relate to latency.
+      * Logging: Implement custom logging to record timestamps and relevant information for cache operations. This can help you analyze the time taken by cache-related activities.
+      * External Monitoring: Use external monitoring tools and services that can provide insights into your application's performance, including latency measurements. Tools like Prometheus with Grafana or New Relic can be integrated into your application for performance monitoring.
+   Remember that measuring latency can be influenced by various factors, including the hardware, operating system, and JVM configuration. It's essential to consider the specific context and requirements of your application when implementing latency measurement solutions.
+
+Since software libraries like Caffeine primarily focus on their core functionality (in this case, caching), additional performance monitoring and latency measurement are typically handled at the application level using the approaches mentioned above. Keep in mind that newer versions of libraries and frameworks may introduce additional features, so it's a good practice to check the documentation or release notes for the latest updates and capabilities.
  
 
